@@ -1,1 +1,2 @@
 "# project" 
+permalink: /index.html
