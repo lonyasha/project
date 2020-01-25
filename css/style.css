@@ -34,10 +34,10 @@ body {
   margin-bottom: 105px;
 }
 .social-links {
-  margin-left: 20px;
+  margin-right: 20px;
 }
-.social-links:first-child {
-  margin-left: 0px;
+.social-links:last-child {
+  margin-right: 0;
 }
 .hero-content {
   display: flex;
