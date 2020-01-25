@@ -128,6 +128,24 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.projects-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+.projects-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #DA8B70;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.projects-bullet-active {
+  background-color: #DA8B70;
+}
 .project-title {
   flex-basis: 100%;
   font-weight: bold;
@@ -195,13 +213,13 @@ body {
 }
 .input-name {
   margin-bottom: 17px;
-  background-image: url(img/user-icon.svg);
+  background-image: url(../img/user-icon.svg);
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
 .input-phone {
   margin-bottom: 17px;
-  background-image: url(img/phone-icon.svg);
+  background-image: url(../img/phone-icon.svg);
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
